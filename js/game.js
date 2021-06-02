@@ -4,7 +4,7 @@ const pincel = tela.getContext("2d");
 pincel.fillStyle = 'lightgray';
 pincel.fillRect(0, 0, 600, 400);
 
-let raio = 10;
+const raio = 10;
 let xAletorio = sorteiaPosicao(600);
 let yAletorio = sorteiaPosicao(400);
 
